@@ -1,8 +1,9 @@
 ﻿public class Program
 {
-    public int[] Array;
-    public int Count;
-    public int InitialSize = 4;
+    private int[] Array;
+    public int Count { get; private set; }
+
+    private int InitialSize = 4;
 
     public Program()
     {
