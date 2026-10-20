@@ -1,0 +1,54 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+publish/
+/packages/
+
+# .NET
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+project.lock.json
+*.nupkg
+*.snupkg
+TestResults/
+[Tt]est[Rr]esult*/
+*.log
+
+# Coverage
+coverage/
+*.lcov
+*.coverage
+*.coveragexml
+
+# Rider / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+*.DotSettings.user
+
+# Visual Studio
+.vs/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+secrets.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
